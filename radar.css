@@ -1,0 +1,14 @@
+/* Local Video Styling */
+.video {
+    text-align: center;
+    margin: 40px 0;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.video h3 {
+    color: tan;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
