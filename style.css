@@ -1,0 +1,171 @@
+*{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+nav {
+    background:#e3c800 ;
+    color: black;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 0.5rem;
+}
+
+
+.logo {
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5rem;
+}
+
+.nav-links a:hover {
+    background:midnightblue ;
+    color:white;
+    border-radius: 3px;
+}
+
+
+body {
+    background:url(background10.jpg);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+
+}
+
+.current-weather {
+    margin: 40px 30px;
+}
+.current-weather h2{
+    text-align: center;
+    text-decoration: wavy;
+}
+
+.current-box {
+    background: moccasin;
+    padding: 30px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.temp-now {
+    font-size: 4rem;
+    font-weight: bold;
+    color: black;
+}
+
+.current-icon {
+    font-size: 5rem;
+
+}
+
+.current-details p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    color: #333;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+
+.cards {
+    margin: 40px 30px;
+}
+
+.card {
+    width: 140px;
+    padding: 25px;
+}
+
+
+.content {
+    padding: 30px;
+    text-align: center;
+}
+
+.content h2{
+    color: yellow;
+}
+h2 {
+    margin-top: 50px;
+    color:orange;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 120px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px gray;
+}
+
+.card:hover {
+    background: lightyellow;
+    box-shadow: 5px 5px 15px gray;
+    transform: scale(1.1);
+}
+
+.card div {
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+.card p {
+    margin: 5px;
+    font-size: 20px;
+}
+.headertext{
+    font-size: 2rem;
+    letter-spacing: 3px;
+   margin: 50px;
+   text-align: center;
+   color: whitesmoke;
+
+}
+.headertext:hover{
+ color: yellow;
+ transform: scale(1.01);
+}
+.subtitle{
+    text-align: center;
+    color:khaki;
+    font-family: cursive;
+    
+}
+.footer {
+    background: black;
+    color: gold;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
