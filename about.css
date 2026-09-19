@@ -1,0 +1,86 @@
+
+.about-content {
+    padding: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.about-content h2 {
+    font-size: 2rem;
+    letter-spacing: 3px;
+   margin: 50px;
+   text-align: center;
+   color: whitesmoke;
+
+}
+.about-content h2:hover{
+ color: yellow;
+}
+
+.about-box {
+    background: moccasin;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    box-shadow: 2px 2px 8px gray;
+    color:black;
+}
+
+.about-box:hover {
+    background: azure;
+    box-shadow: 4px 4px 12px gray;
+}
+
+.about-box h3 {
+    color: brown;
+    margin-top: 0;
+}
+
+.about-box p {
+    margin: 10px 0;
+    line-height: 1.5;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.team {
+    margin-top: 40px;
+    font-size: 14;
+}
+
+.team h3 {
+    text-align: center;
+    color: moccasin;
+    margin: 20px;
+}
+
+
+
+.team p {
+    background: thistle;
+    padding: 15px;
+    margin: auto;
+    border-radius: 8px;
+    width: 120px;
+    text-align: center;
+    box-shadow: 2px 2px 8px gray;
+    align-content: center;
+
+}
+
+.team p:hover {
+    background: moccasin;
+    transform: scale(1.02);
+}
+
+    
+
+.footer{
+    background: black;
+    color: gold;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
